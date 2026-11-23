@@ -1,0 +1,35 @@
+# Java build output
+out/
+*.class
+*.jar
+
+# Database files created at runtime (AOF)
+data/
+*.aof
+*.aof.rewrite
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Python (compat_test.py)
+__pycache__/
+*.pyc
+.venv/
+
+# Logs, secrets, IDE and OS files
+*.log
+*.tmp
+.env
+.env.*
+*.pem
+*.key
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+latex
